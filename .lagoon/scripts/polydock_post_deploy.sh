@@ -60,6 +60,7 @@ if [ ! -f "$LOCKFILE" ]; then
             echo "Updating $POLYDOCK_GENERATED_APP_ADMIN_USERNAME password";
             drush upwd "$POLYDOCK_GENERATED_APP_ADMIN_USERNAME" "$POLYDOCK_GENERATED_APP_ADMIN_PASSWORD"
         fi;
+
     fi;
 
     echo "Created $LOCKFILE to ensure we don't run more than once"
