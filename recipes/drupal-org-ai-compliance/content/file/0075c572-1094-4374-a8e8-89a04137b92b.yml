@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0075c572-1094-4374-a8e8-89a04137b92b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: crowd.jpg
+  uri:
+    -
+      value: 'public://2025-05/crowd.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1184155
+  status:
+    -
+      value: true

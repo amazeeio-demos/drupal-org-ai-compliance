@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_compliance_notes
+    - filter.format.content_format
+    - node.type.compliance_content
+  module:
+    - text
+id: node.compliance_content.field_compliance_notes
+field_name: field_compliance_notes
+entity_type: node
+bundle: compliance_content
+label: 'Compliance Notes'
+description: 'Do not use this field. Drupal AI will populate it.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

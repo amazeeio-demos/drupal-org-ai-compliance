@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 820c8f24-eff2-43b1-b9aa-1372f34bf289
+  bundle: image
+  default_langcode: en
+  depends:
+    e7e8613f-c1d2-47d5-a91c-186b7f3c0115: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Step1.png
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Dropdown menu in a web application interface showing content options'
+      title: ''
+      width: 576
+      height: 462
+      entity: e7e8613f-c1d2-47d5-a91c-186b7f3c0115

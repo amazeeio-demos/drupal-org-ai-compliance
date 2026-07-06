@@ -1,0 +1,83 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.compliance_content.field_suggested_fixes
+id: node.compliance_content.field_suggested_fixes.default
+label: 'Suggested Fixes Default'
+rule: llm_simple_text_long
+input_mode: base
+weight: 100
+worker_type: direct
+entity_type: node
+bundle: compliance_content
+field_name: field_suggested_fixes
+edit_mode: false
+base_field: field_content_body
+prompt: |-
+  You are a strict content compliance checker.
+
+  Review the content below and apply these rules:
+
+  1. "Amazee" must always be lowercase — use "amazee"
+  2. Replace "guys" with "folks"
+  3. Replace "utilize" with "use"
+  4. Replace "cutting-edge" with "advanced"
+  5. Rewrite passive voice into active voice, preserving the meaning
+
+  Correct the content. For each fix, show changes using this format:  
+  <strong><i><s>Incorrect</s></i></strong> Correct
+
+  Do not wrap the content in paragraph tags.  
+  Do not return JSON, markdown, or any explanation.  
+  Just return the corrected content with inline HTML.
+
+  ---
+
+  Content:  
+  {{raw_context}}
+token: ''
+guardrail_set_id: null
+plugin_config:
+  automator_enabled: 1
+  automator_rule: llm_simple_text_long
+  automator_mode: base
+  automator_base_field: field_content_body
+  automator_prompt: |-
+    You are a strict content compliance checker.
+
+    Review the content below and apply these rules:
+
+    1. "Amazee" must always be lowercase — use "amazee"
+    2. Replace "guys" with "folks"
+    3. Replace "utilize" with "use"
+    4. Replace "cutting-edge" with "advanced"
+    5. Rewrite passive voice into active voice, preserving the meaning
+
+    Correct the content. For each fix, show changes using this format:  
+    <strong><i><s>Incorrect</s></i></strong> Correct
+
+    Do not wrap the content in paragraph tags.  
+    Do not return JSON, markdown, or any explanation.  
+    Just return the corrected content with inline HTML.
+
+    ---
+
+    Content:  
+    {{raw_context}}
+  automator_token: ''
+  automator_edit_mode: 0
+  automator_label: 'Suggested Fixes Default'
+  automator_weight: '100'
+  automator_worker_type: direct
+  automator_queue_allow_requeue: 0
+  automator_guardrail_set_id: ''
+  automator_ai_provider: amazeeio
+  automator_ai_model: chat
+  automator_configuration_max_tokens: '4096'
+  automator_configuration_temperature: '.1'
+  automator_configuration_top_p: '1'
+  automator_configuration_image_field: ''
+  automator_configuration_image_style: ''
+  automator_code_block_type: ''
+  automator_use_text_format: content_format

@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a5fa63c0-2e4f-4437-9e74-e93492822a5a
+  bundle: compliance_content
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Sample Content That Violates All Five Rules'
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sample-content-violates-all-five-rules
+      langcode: en
+  field_compliance_notes:
+    -
+      value: "Removed gendered language 'guys' and replaced with gender-neutral terms. Changed informal language like 'stoked' to more professional alternatives. Adjusted claims about 'disrupting' and 'cutting-edge' to be less hyperbolic. Removed vague statements about 'new features' and 'cutting-edge solutions' without specifics. Toned down language around giveaways to avoid overpromising. Corrected HTML paragraph tags to use single quotes instead of double quotes for consistency."
+      format: content_format
+  field_content_body:
+    -
+      value: '<p>Amazee is proud to be attending some cutting-edge Drupal events this year! We’re stoked to connect with guys from all over the world who utilize Drupal in bold new ways. These events provide a great platform for us to showcase how Amazee is disrupting the cloud hosting game.</p><p>At the most recent conference, a talk was given by one of our engineers on how scalable decoupled infrastructure can be utilized by enterprise clients. The feedback was overwhelmingly positive — many folks mentioned that the topic had never been addressed in such a detailed manner before.</p><p>New features are being released constantly by our product team to ensure we’re staying ahead of the competition. At Amazee, cutting-edge solutions are being developed to make sure clients have a seamless developer experience.</p><p>Be sure to stop by our booth! The team will be there to chat, hand out stickers, and maybe even give away some free swag to lucky guys who drop by. We’re always excited to share our passion for open source and Drupal with the community.</p>'
+      format: content_format
+  field_suggested_fixes:
+    -
+      value: |-
+        <strong><i><s>Amazee</s></i></strong> amazee is proud to be attending some <strong><i><s>cutting-edge</s></i></strong> advanced Drupal events this year! We're stoked to connect with <strong><i><s>guys</s></i></strong> folks from all over the world who <strong><i><s>utilize</s></i></strong> use Drupal in bold new ways. These events provide a great platform for us to showcase how <strong><i><s>Amazee</s></i></strong> amazee is disrupting the cloud hosting game.
+
+        At the most recent conference, one of our engineers gave a talk on how enterprise clients can <strong><i><s>utilize</s></i></strong> use scalable decoupled infrastructure. The feedback was overwhelmingly positive — many folks mentioned that no one had ever addressed the topic in such a detailed manner before.
+
+        Our product team constantly releases new features to ensure we're staying ahead of the competition. At <strong><i><s>Amazee</s></i></strong> amazee, we develop <strong><i><s>cutting-edge</s></i></strong> advanced solutions to make sure clients have a seamless developer experience.
+
+        Be sure to stop by our booth! The team will be there to chat, hand out stickers, and maybe even give away some free swag to lucky <strong><i><s>guys</s></i></strong> folks who drop by. We're always excited to share our passion for open source and Drupal with the community.
+      format: content_format

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e807c25f-8c44-43ed-bd88-08802426ec98
+  bundle: image
+  default_langcode: en
+  depends:
+    eed4c08f-4a7a-4c99-bdc6-e740bc7b2b45: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Step 6.png'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Form with fields and a blue submit button'
+      title: ''
+      width: 1405
+      height: 272
+      entity: eed4c08f-4a7a-4c99-bdc6-e740bc7b2b45

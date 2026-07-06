@@ -1,0 +1,36 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e939b485-ca10-4061-9036-3d6d394d7214
+  bundle: page
+  default_langcode: en
+  depends:
+    e593b567-2ff6-483e-9d80-ccbd49230c2c: media
+default:
+  revision_uid:
+  - target_id: 1
+  status:
+  - value: true
+  uid:
+  - target_id: 1
+  title:
+  - value: Home
+  promote:
+  - value: true
+  sticky:
+  - value: false
+  revision_translation_affected:
+  - value: true
+  moderation_state:
+  - value: published
+  path:
+  - alias: /instructions
+    langcode: en
+    pathauto: 0
+  field_content:
+  - value: '<p><strong>Welcome </strong>to the Drupal CMS + AI "Try Compliance Checks" powered by amazee.ai!&nbsp;<br><br><strong>Try Compliance Checks</strong> is an interactive demo that lets you test DrupalAI’s ability to automatically detect and correct content that breaks predefined writing rules. Just enter text into the body field and save — DrupalAI will scan your content for issues like brand misuse, passive voice, jargon, and non-inclusive language, then generate inline corrections and a clear list of violations. It’s a fast, hands-on way to see how AI can enforce style and compliance guidelines in real time.</p><drupal-media data-entity-type="media" data-entity-uuid="6f1a44ce-13ba-4c71-b57d-047eb16201eb">&nbsp;</drupal-media><p>To get started with this experience please follow these guidelines:<br><br><strong>Step 1: </strong>Click Create -&gt; Compliance Content</p><drupal-media data-entity-type="media" data-entity-uuid="820c8f24-eff2-43b1-b9aa-1372f34bf289">&nbsp;</drupal-media><p><br><strong>Step 2:</strong> Fill out the form. Don''t fill in Suggested Fixes. That field is used by DrupalAI</p><drupal-media data-entity-type="media" data-entity-uuid="bfea1ccb-4aae-47f2-9326-142f2d6c7b1e">&nbsp;</drupal-media><p><strong>Step 3:</strong> Review the suggested fixes and the explanation of why they happened.</p><drupal-media data-entity-type="media" data-entity-uuid="caa137b4-b034-41a1-a087-d9fd99287884">&nbsp;</drupal-media><p><strong>Step 4: </strong>If you want to review the prompt or add your own rules, click on Structure -&gt; Content types.</p><drupal-media data-entity-type="media" data-entity-uuid="c51dd80e-7642-4893-b373-641437b21799">&nbsp;</drupal-media><p><strong>Step 5: </strong>Choose Manage Fields on Compliance Content.</p><drupal-media data-entity-type="media" data-entity-uuid="e9e06049-a69d-4e80-bfd0-693a1c5ead12">&nbsp;</drupal-media><p><strong>Step 6: </strong>Choose Edit on Suggested Fixes.</p><drupal-media data-entity-type="media" data-entity-uuid="e807c25f-8c44-43ed-bd88-08802426ec98">&nbsp;</drupal-media><p><strong>Step 7: </strong>Scroll down to where the automator prompt has been written and have fun playing!</p><drupal-media data-entity-type="media" data-entity-uuid="0d7f67bf-d399-4f1b-b36a-c2461aafc5e4">&nbsp;</drupal-media><p><strong>Afterword:</strong><br><br>Claude can be finicky. Be careful about your rules. Follow the following guidelines, otherwise claude can think you want it to return JSON which will throw errors.</p><ul><li>No words like “format,” “list,” “structure,” “else,” “output,” or “comment”</li><li>Instructions are simple, declarative, and avoid control-flow triggers</li><li>JSON, markdown, and &lt;p&gt; output are suppressed via direct instruction</li><li>Uses plain language and model-friendly phrasing</li></ul><p>&nbsp;</p>'
+    format: content_format
+  field_description:
+  - value: This is the welcome page for the amazee.ai free trial
+  field_featured_image:
+  - entity: e593b567-2ff6-483e-9d80-ccbd49230c2c

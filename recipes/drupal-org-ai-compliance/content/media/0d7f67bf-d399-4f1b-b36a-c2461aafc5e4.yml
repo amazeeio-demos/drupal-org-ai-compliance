@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 0d7f67bf-d399-4f1b-b36a-c2461aafc5e4
+  bundle: image
+  default_langcode: en
+  depends:
+    9e2d3f37-9f6f-4c89-812f-0da1efd14c49: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Step 7.png'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'A prompt'
+      title: ''
+      width: 1419
+      height: 698
+      entity: 9e2d3f37-9f6f-4c89-812f-0da1efd14c49
