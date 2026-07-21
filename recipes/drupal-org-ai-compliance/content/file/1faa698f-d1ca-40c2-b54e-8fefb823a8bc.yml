@@ -1,0 +1,18 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1faa698f-d1ca-40c2-b54e-8fefb823a8bc
+  default_langcode: en
+default:
+  uid:
+  - target_id: 1
+  filename:
+  - value: CleanShot-2025-04-25-at-13.20.44.gif
+  uri:
+  - value: public://2025-04/CleanShot-2025-04-25-at-13.20.44.gif
+  filemime:
+  - value: image/gif
+  filesize:
+  - value: 288823
+  status:
+  - value: true

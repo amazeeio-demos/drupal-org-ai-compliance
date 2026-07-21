@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: 7b9cfdef-11fe-41ff-9e9b-a9c9df848e6c
+  bundle: image
+  default_langcode: en
+  depends:
+    0075c572-1094-4374-a8e8-89a04137b92b: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: crowd.jpg
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Large diverse crowd walking together, focus on man with beard in center'
+      title: ''
+      width: 1536
+      height: 1024
+      entity: 0075c572-1094-4374-a8e8-89a04137b92b

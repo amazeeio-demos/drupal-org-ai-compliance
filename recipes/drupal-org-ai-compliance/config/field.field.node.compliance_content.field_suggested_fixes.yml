@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_suggested_fixes
+    - filter.format.content_format
+    - node.type.compliance_content
+  module:
+    - text
+id: node.compliance_content.field_suggested_fixes
+field_name: field_suggested_fixes
+entity_type: node
+bundle: compliance_content
+label: 'Suggested Fixes'
+description: "Don't fill this text field in. It is used by DrupalAI."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - content_format
+field_type: text_long

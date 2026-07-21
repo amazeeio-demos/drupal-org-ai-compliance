@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: e9e06049-a69d-4e80-bfd0-693a1c5ead12
+  bundle: image
+  default_langcode: en
+  depends:
+    dc080ae6-eeee-4785-864e-97aaf4afc55d: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Step 5.png'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Webpage form with text fields and dropdown menus for entering personal information.'
+      title: ''
+      width: 1544
+      height: 260
+      entity: dc080ae6-eeee-4785-864e-97aaf4afc55d

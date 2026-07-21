@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: c51dd80e-7642-4893-b373-641437b21799
+  bundle: image
+  default_langcode: en
+  depends:
+    207669a3-2d51-4344-bdc9-86a9960da04e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'Step 4.png'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'List of settings options with "Suggested Posts" highlighted in blue'
+      title: ''
+      width: 771
+      height: 607
+      entity: 207669a3-2d51-4344-bdc9-86a9960da04e

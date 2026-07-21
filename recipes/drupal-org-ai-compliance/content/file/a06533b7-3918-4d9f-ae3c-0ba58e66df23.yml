@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a06533b7-3918-4d9f-ae3c-0ba58e66df23
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Step2.png
+  uri:
+    -
+      value: 'public://2025-05/Step2.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 82262
+  status:
+    -
+      value: true

@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: bfea1ccb-4aae-47f2-9326-142f2d6c7b1e
+  bundle: image
+  default_langcode: en
+  depends:
+    a06533b7-3918-4d9f-ae3c-0ba58e66df23: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: Step2.png
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Web form interface with compliance content creation options and checkboxes'
+      title: ''
+      width: 916
+      height: 869
+      entity: a06533b7-3918-4d9f-ae3c-0ba58e66df23

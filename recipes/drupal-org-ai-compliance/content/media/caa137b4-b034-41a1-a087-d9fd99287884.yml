@@ -1,0 +1,32 @@
+_meta:
+  version: '1.0'
+  entity_type: media
+  uuid: caa137b4-b034-41a1-a087-d9fd99287884
+  bundle: image
+  default_langcode: en
+  depends:
+    046e413c-717b-46df-8f7c-6e74af9b323e: file
+default:
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  name:
+    -
+      value: 'step 3.png'
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_media_image:
+    -
+      alt: 'Updated text that has applied the compliance rules.'
+      title: ''
+      width: 485
+      height: 1510
+      entity: 046e413c-717b-46df-8f7c-6e74af9b323e
